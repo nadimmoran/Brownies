@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personaliza</title>
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <div class="form-personalizar">
+
+        <form action="" method="post">
+
+            <h3 class="titulo">Personaliza tu Brownie</h3>
+
+            <div class="img-brownie">
+                <img class="basebrownie" id="baseBrownie" src="img/browniebase.png" alt="base Brownie">
+                <img class="first-capa" id="Chocolate" src="img/chocolatecover.png" alt="base Brownie" style="display: none;">
+                <img class="second-capa" id="Mashmellow" src="img/marshmallows.png" alt="Mashmellow"  style="display: none;">
+                <img class="second-capa" id="Grageas" src="img/grageas.png" alt="base Brownie"  style="display: none;">
+                <img class="first-capa" id="chocochip" src="img/chocochips.png" alt="base Brownie"  style="display: none;">
+                <img class="first-capa" id="Gomitas" src="img/gomita.png" alt="base Brownie"  style="display: none;">
+                <img class="first-capa" id="chispitas" src="img/chispitas.png" alt="base Brownie"  style="display: none;">
+            </div>
+
+            <br>
+            <div class="chkstyle">
+                <input class="" type="checkbox" name="checkMashmellow" id="checkMashmellow"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Mashmellow</label><br>
+            </div>
+
+            <div class="chkstyle">
+                <input type="checkbox" name="checkChocolate" id="checkChocolate"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Chocolate</label><br>
+            </div><br>
+
+            <div class="chkstyle chkspadding">
+                <input type="checkbox" name="checkGrageas" id="checkGrageas"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Grageas</label><br>
+            </div>
+            <div class="chkstyle chkspadding">
+                <input type="checkbox" name="checkchochips" id="checkchochips"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Chispas de chocolate</label><br>
+            </div>
+            <div class="chkstyle chkspadding">
+                <input type="checkbox" name="checkGomitas" id="checkGomitas"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Gomitas</label><br>
+            </div>
+            <div class="chkstyle chkspadding">
+                <input type="checkbox" name="checkChispitas" id="checkChispitas"
+                    onchange="javascript:mostrarcombo()" /><label class="labelchk">Chispitas</label><br>
+            </div>
+            <br><br>
+
+            <input type="submit" name="registrar" value="Siguiente" class="btn btn-chk">
+
+        </form>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+      
+</html>

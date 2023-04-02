@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delisweetchocolate - Envio</title>   
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>    
+    <div class="form-container">
+        <form action="Envio.php" method="post">
+            <a href="index.php"><img src="img/logo.png" alt=""></a>
+            <h3>Datos de Envio</h3>
+            <div>
+                <label for="direccionE">Direccion</label>
+                <input type="text" id="direccionE" name="direccionE" required class="box">
+            </div>
+            <div>
+                <label for="codigoP">Codigo Postal</label>
+                <input type="number" id="codigoP" name="codigoP" required class="box">
+            </div>
+            <div>
+                <label for="referenciaE">Referencia</label>
+                <input type="text" id="referenciaE" name="referenciaE" required class="box">
+            </div>
+            <a href="/Vista/OrdenPedido.php" class="option-btn">Atras</a>
+            <a href="/Vista/Pago.php" class="option-btn">Siguiente</a>
+        </form>
+    </div>
+</body>
+</html>

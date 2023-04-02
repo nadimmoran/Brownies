@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar contraseña</title>
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="RecuperarPass.php" method="POST" />
+            <a href="index.php"><img src="img/logo.png" alt=""></a>
+            <h3>Recuperación de Contraseña</h3>
+            <div>
+                <p>Ingrese los datos de su usuario registrado para poder restaurar su contraseña.<p>
+            </div>
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="email" id="fnom" name="Rcorreo" required class="box">
+            </div>
+            <div>
+                <label for="dni">DNI:</label>
+                <input type="number" id="fape" name="Rdni" required class="box">
+            </div>
+            <input type="submit" name="BuscarUsuario" value="Siguiente" class="btn"><br>
+        </form>
+    </div>
+</body>
+
+</html>
